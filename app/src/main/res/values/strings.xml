@@ -8,5 +8,6 @@
     <string name="task">Task</string>
     <string name="content">Content</string>
     <string name="edit_task">Edit Task</string>
+    <string name="tasker">TASKER</string>
 
 </resources>
