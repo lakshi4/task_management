@@ -15,10 +15,10 @@ class UpdateTaskActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
 
         binding =ActivityUpdateTaskBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_update_task)
+        setContentView(binding.root)
         db = TaskDatabase(this)
 
         taskId =intent.getIntExtra("task_id",-1)
